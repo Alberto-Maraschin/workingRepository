@@ -11,7 +11,7 @@ public class Moltiplicazione extends Methods implements IOperazione {
 	
 	@Override
 	public double calcolaRisultato() {
-		return this.getOperando1() / this.getOperando2();
+		return this.getOperando1() * this.getOperando2();
 	}
 	
 	@Override
